@@ -6,6 +6,7 @@ export default function PriceCard(props) {
         <h6 class="card-price text-center">${props.data.price}<span class="period">/{props.data.period}</span></h6>
         <hr />
         <ul class="fa-ul">
+          
           {
             props.data.features.map(obj => {
               if (obj.enable) {
